@@ -1117,3 +1117,8 @@ figcaption {
         grid-template-columns: 1fr;
     }
 }
+
+.foundation-zoom3 img {
+    width: 100%;
+    height: 215px;
+}
