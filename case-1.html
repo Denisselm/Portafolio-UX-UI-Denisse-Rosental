@@ -33,34 +33,39 @@
             <div>
                 <p class="eyebrow">Caso de estudio</p>
                 <h1 class="hero-title">
-                    Rediseño de Backoffice para operaciones de parques a nivel nacional
+
+                    Outlife Intranet — Rediseño de sistema operativo interno
+
                 </h1>
 
                 <p class="hero-subtitle">
-                    Definí la arquitectura UX y construí un sistema de diseño desde cero para un sistema interno
-                    complejo,
-                    mejorando la claridad operativa y reduciendo la fricción en tareas críticas.
+
+                    Rediseñé la arquitectura UX y definí un sistema de diseño para una intranet compleja, eliminando la
+                    dependencia entre usuarios y permitiendo ejecutar tareas críticas de forma autónoma.
+
                 </p>
 
                 <p class="case-context">
-                    Backoffice utilizado por equipos de marketing, administración y gerencia para gestionar clientes,
-                    activos y operaciones.
+                    Plataforma interna utilizada por múltiples áreas para gestionar operaciones diarias, clientes y
+                    expansión de nuevas líneas de negocio.
                 </p>
 
                 <div class="metrics">
                     <div class="metric-card">
                         <span>6</span>
-                        <p>Usuarios entrevistados</p>
+                        <p>Usuarios entrevistados (roles críticos)</p>
                     </div>
 
+
+
+                    <div class="metric-card">
+                        <span>5+</span>
+                        <p>Áreas clave impactadas</p>
+
+                    </div>
                     <div class="metric-card">
                         <span>↓</span>
-                        <p>Menor fricción en tareas críticas</p>
-                    </div>
-
-                    <div class="metric-card">
-                        <span>✓</span>
-                        <p>Validación con usuarios reales</p>
+                        <p>Reducción de despendencia entre usuarios</p>
                     </div>
                 </div>
             </div>
@@ -97,8 +102,10 @@
             <div class="section-heading">
                 <h2>Problema</h2>
                 <p>
-                    El sistema presentaba alta carga cognitiva, estructuras inconsistentes y dependencia entre usuarios
-                    para completar tareas básicas.
+                    El sistema carecía de una arquitectura clara, con flujos inconsistentes entre módulos que obligaban
+                    a los usuarios a operar por ensayo y error. Esto generaba dependencia constante entre equipos,
+                    bloqueos en tareas críticas y retrasos en la operación diaria, impactando tanto la eficiencia
+                    interna como la experiencia del cliente final.
                 </p>
             </div>
 
@@ -111,18 +118,20 @@
 
             <div class="grid-3" style="margin-top: 40px;">
                 <div class="card">
-                    <h3>Flujos poco claros</h3>
-                    <p>Los usuarios no entendían los pasos necesarios.</p>
+                    <h3>Flujos no guiados</h3>
+                    <p>Los usuarios operaban por ensayo-error sin claridad de pasos ni retroalimentación del sistema.
+                    </p>
                 </div>
 
                 <div class="card">
-                    <h3>Inconsistencia</h3>
-                    <p>Cada módulo funcionaba distinto.</p>
+                    <h3>Inconsistencia entre módulos</h3>
+                    <p>Cada sección tenía estructuras y patrones distintos, obligando a reaprender constantemente.</p>
                 </div>
 
                 <div class="card">
-                    <h3>Dependencia</h3>
-                    <p>Necesidad constante de ayuda.</p>
+                    <h3>Dependencia operativa</h3>
+                    <p>Los usuarios necesitaban apoyo de compañeros para completar tareas críticas, especialmente en
+                        onboarding.</p>
                 </div>
             </div>
 
@@ -136,19 +145,23 @@
             <div class="section-heading">
                 <h2>Investigación</h2>
                 <p>
-                    Entrevistas con usuarios internos permitieron identificar fricciones reales en tareas críticas.
+                    Realicé entrevistas con usuarios de distintas áreas críticas del negocio para entender cómo operaban
+                    dentro del sistema, identificando bloqueos en tareas clave, dependencia entre equipos y dificultades
+                    en el onboarding de nuevos usuarios.
                 </p>
             </div>
 
             <div class="grid-2" style="margin-top: 40px;">
                 <div class="card">
-                    <h3>Usuarios</h3>
-                    <p>Marketing, administración y gerencia.</p>
+                    <h3>Usuarios entrevistados</h3>
+                    <p>Guardaparques (operación diaria), marketing (gestión de campañas) y gerencia (validación de
+                        clientes y decisiones).</p>
                 </div>
 
                 <div class="card">
                     <h3>Insight clave</h3>
-                    <p>Los usuarios “adivinaban” cómo operar el sistema.</p>
+                    <p>La falta de flujos claros obligaba a los usuarios a operar por ensayo-error, generando
+                        dependencia entre equipos y dificultando el onboarding de nuevos usuarios.</p>
                 </div>
             </div>
 
@@ -172,7 +185,8 @@
                 <div class="decision-card">
                     <div class="decision-header">
                         <h3>Estandarización de tablas</h3>
-                        <p>Unifiqué estructuras entre módulos.</p>
+                        <p>Unifiqué estructuras y acciones para evitar que los usuarios tuvieran que reaprender cada
+                            módulo.</p>
                     </div>
 
                     <div class="decision-media">
@@ -188,7 +202,8 @@
                 <div class="decision-card">
                     <div class="decision-header">
                         <h3>Formularios con validación</h3>
-                        <p>Optimicé inputs y validaciones.</p>
+                        <p>Incorporé validación en tiempo real para reducir errores y evitar bloqueos en tareas
+                            críticas.</p>
                     </div>
 
                     <div class="decision-media">
@@ -204,7 +219,8 @@
                 <div class="decision-card">
                     <div class="decision-header">
                         <h3>Feedback contextual</h3>
-                        <p>Incorporé estados y mensajes.</p>
+                        <p>Diseñé estados y mensajes claros para guiar al usuario y mejorar la comprensión de cada
+                            acción dentro del flujo.</p>
                     </div>
 
                     <div class="decision-media">
@@ -236,15 +252,15 @@
                     <h3 class="label before">Antes</h3>
 
                     <div class="image-container">
-                        <img src="images/personas-original.png" Vista antes del rediseño">
+                        <img src="images/personas-original.png" alt="Vista antes del rediseño">
                     </div>
 
                     <ul class="comparison-list">
-                        <li>Alta densidad de información en una sola tabla</li>
-                        <li>Falta de jerarquía visual</li>
-                        <li>Acciones no visibles (editar, ver, gestionar)</li>
-                        <li>Filtros poco claros y difíciles de usar</li>
-                        <li>Baja comprensión para usuarios nuevos</li>
+                        <li>Información concentrada sin jerarquía clara</li>
+                        <li>Acciones no visibles o difíciles de identificar</li>
+                        <li>Filtros confusos sin indicación de estado</li>
+                        <li>Navegación poco predecible entre acciones</li>
+                        <li>Usuarios dependían de apoyo para completar tareas</li>
                     </ul>
                 </div>
 
@@ -257,11 +273,11 @@
                     </div>
 
                     <ul class="comparison-list">
-                        <li>Información organizada con mejor jerarquía visual</li>
-                        <li>Acciones claras mediante iconografía contextual</li>
-                        <li>Mayor control del usuario sobre la gestión de datos</li>
-                        <li>Filtros comprensibles y accesibles</li>
-                        <li>Consistencia en patrones a lo largo del sistema</li>
+                        <li>Información estructurada con jerarquía clara</li>
+                        <li>Acciones visibles y reconocibles dentro del contexto</li>
+                        <li>Filtros con estados claros y fácil interacción</li>
+                        <li>Navegación consistente entre módulos</li>
+                        <li>Usuarios pueden completar tareas sin asistencia</li>
                     </ul>
                 </div>
 
@@ -277,24 +293,25 @@
             <div class="section-heading">
                 <h2>Design System</h2>
                 <p>
-                    Sistema de diseño para asegurar consistencia y escalabilidad.
+                    Definí un sistema de diseño para estandarizar patrones entre módulos, reducir inconsistencias en
+                    desarrollo y facilitar la escalabilidad del sistema a nuevas funcionalidades y líneas de negocio.
                 </p>
             </div>
 
             <div class="grid-3" style="margin-top: 40px;">
                 <div class="card">
-                    <h3>Tokens</h3>
-                    <p>Base visual del sistema.</p>
+                    <h3>Patrones unificados</h3>
+                    <p>Definí reglas consistentes para tablas, formularios y navegación entre módulos.</p>
                 </div>
 
                 <div class="card">
-                    <h3>Componentes</h3>
-                    <p>Elementos reutilizables.</p>
+                    <h3>Componentes reutilizables</h3>
+                    <p>Construí componentes que reducen la duplicación y facilitan la implementación en desarrollo.</p>
                 </div>
 
                 <div class="card">
-                    <h3>Escalabilidad</h3>
-                    <p>Consistencia a largo plazo.</p>
+                    <h3>Escalabilidad del sistema</h3>
+                    <p>Permitió integrar nuevas funcionalidades y módulos sin romper la coherencia del sistema.</p>
                 </div>
             </div>
 
@@ -315,25 +332,65 @@
             <div class="section-heading">
                 <h2>Validación</h2>
                 <p>
-                    Validación continua mediante pruebas y QA design durante desarrollo.
+                    Validé las decisiones mediante pruebas con usuarios y seguimiento de implementación, identificando
+                    mejoras en la comprensión de los flujos, reducción de errores y mayor autonomía en tareas críticas.
                 </p>
             </div>
 
             <div class="grid-3">
                 <div class="card">
-                    <h3>Autonomía</h3>
-                    <p>Usuarios completan tareas sin ayuda.</p>
+                    <h3>Autonomía en tareas</h3>
+                    <p>Usuarios pudieron completar tareas críticas sin depender de apoyo de otros equipos.</p>
                 </div>
 
                 <div class="card">
-                    <h3>Comprensión</h3>
-                    <p>Flujos más claros.</p>
+                    <h3>Comprensión de flujos</h3>
+                    <p>Los usuarios identificaron con mayor claridad los pasos y estados dentro de cada proceso.</p>
                 </div>
 
                 <div class="card">
-                    <h3>Feedback</h3>
-                    <p>Percepción positiva del sistema.</p>
+                    <h3>Reducción de errores</h3>
+                    <p>La validación en tiempo real permitió detectar y corregir errores antes de bloquear tareas.</p>
                 </div>
+            </div>
+
+
+
+        </div>
+    </section>
+
+
+    <section class="case-section">
+        <div class="container">
+
+            <div class="section-heading">
+                <h2>Colaboración y entrega</h2>
+                <p>
+                    Trabajé en conjunto con un equipo de desarrollo externo en un entorno remoto, gestionando la
+                    implementación mediante comunicación asíncrona, priorización continua y seguimiento de calidad.
+                </p>
+            </div>
+
+            <div class="grid-3" style="margin-top: 40px;">
+
+                <div class="card">
+                    <h3>Trabajo con desarrollo</h3>
+                    <p>Colaboré con desarrolladores a través de Figma, Miro y comunicación directa, alineando decisiones
+                        de diseño con implementación.</p>
+                </div>
+
+                <div class="card">
+                    <h3>Priorización continua</h3>
+                    <p>Las prioridades se ajustaban diariamente según necesidades del negocio, adaptando el diseño a
+                        entregas iterativas.</p>
+                </div>
+
+                <div class="card">
+                    <h3>Design QA</h3>
+                    <p>Realicé seguimiento de implementación, detectando inconsistencias y documentando incidencias con
+                        prioridad y contexto para desarrollo.</p>
+                </div>
+
             </div>
 
             <div class="case-image">
@@ -353,24 +410,26 @@
             <div class="section-heading">
                 <h2>Impacto</h2>
                 <p>
-                    El sistema permite mayor autonomía, menor curva de aprendizaje y mejor ejecución operativa.
+                    El rediseño permitió reducir la dependencia entre usuarios, mejorar la ejecución de tareas críticas
+                    y facilitar el onboarding, impactando directamente la eficiencia operativa y la experiencia del
+                    cliente final.
                 </p>
             </div>
 
             <div class="grid-3" style="margin-top: 40px;">
                 <div class="card">
-                    <h3>Claridad</h3>
-                    <p>Tareas sin asistencia.</p>
+                    <h3>Autonomía operativa</h3>
+                    <p>Los usuarios pueden ejecutar tareas críticas sin depender de otros equipos.</p>
                 </div>
 
                 <div class="card">
-                    <h3>Adopción</h3>
-                    <p>Mejor onboarding.</p>
+                    <h3>Onboarding eficiente</h3>
+                    <p>Usuarios nuevos comprenden el sistema sin necesidad de capacitación informal.</p>
                 </div>
 
                 <div class="card">
-                    <h3>Experiencia</h3>
-                    <p>Feedback positivo.</p>
+                    <h3>Impacto en cliente final</h3>
+                    <p>Se reducen errores en procesos que afectan directamente la experiencia del cliente.</p>
                 </div>
             </div>
 
