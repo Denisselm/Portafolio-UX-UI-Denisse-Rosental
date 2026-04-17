@@ -397,93 +397,98 @@
 
 
 
-        <section class="case-section fade-in">
-            <h2>Antes y después: checkout</h2>
+        <section class="case-section fade-in checkout-before-section">
+            <h2>Checkout original: punto crítico de fricción</h2>
 
-            <p>
-                El rediseño transformó una experiencia de compra visualmente básica y difícil de seguir en una
-                secuencia más clara, guiada y consistente con una web orientada al cliente final.
+            <p class="section-intro">
+                El checkout existente presentaba una estructura básica, sin jerarquía clara ni señales de progresión.
+                Los usuarios no lograban entender en qué paso estaban ni qué acción debían realizar a continuación,
+                lo que generaba abandono o necesidad de asistencia para completar la compra.
             </p>
 
-            <div class="compare-grid">
-                <div class="compare-item">
-                    <div class="compare-label before">Antes</div>
-                    <figure class="case-figure">
-                        <div class="project-image media-frame media-frame--comparison">
-                            <img src="images/carro-antes.jpg"
-                                alt="Versión anterior del checkout de Outlife con diseño básico y estructura poco clara">
-                        </div>
-                        <figcaption>
-                            Checkout anterior, con una estructura poco jerarquizada, estética desactualizada y
-                            señales
-                            insuficientes para guiar al usuario.
-                        </figcaption>
-                    </figure>
+            <figure class="case-figure case-figure--full">
+                <div class="project-image media-frame media-frame--checkout-before">
+                    <img src="images/carro-antes.jpg"
+                        alt="Checkout original de Outlife con estructura básica, sin pasos claros ni jerarquía visual">
                 </div>
 
-                <div class="compare-item">
-                    <div class="compare-label after">Después</div>
-                    <figure class="case-figure">
-                        <div class="project-image media-frame media-frame--comparison">
-                            <img src="images/despues-carro.jpg"
-                                alt="Versión rediseñada del checkout de Outlife con resumen lateral, CTA visibles y mejor jerarquía">
-                        </div>
-                        <figcaption>
-                            Propuesta rediseñada del checkout, con mejor estructura, CTAs más visibles y una
-                            experiencia
-                            más cercana a estándares actuales de e-commerce.
-                        </figcaption>
-                    </figure>
-                </div>
-            </div>
+                <figcaption>
+                    Checkout original con baja jerarquía visual, sin pasos definidos ni guía clara para completar el
+                    proceso de compra.
+                </figcaption>
+            </figure>
         </section>
 
-        <section class="case-section case-flow-section fade-in">
+        <section class="section dark flow-section">
             <div class="container">
 
-                <div class="section-heading">
-                    <h2>Flujo clave: checkout rediseñado</h2>
-                    <p>
-                        El nuevo checkout se diseñó para hacer evidente el paso a paso, reducir ambigüedad y dar más
-                        control al usuario durante la compra.
-                    </p>
+                <h2>Flujo de checkout rediseñado</h2>
+
+                <p>
+                    El rediseño del checkout se enfocó en transformar un flujo confuso en una secuencia guiada,
+                    donde el usuario entiende en qué paso se encuentra, qué debe hacer y cómo avanzar sin fricción
+                    hasta completar la compra.
+                </p>
+
+                <div class="flow">
+
+                    <div class="flow-step ">
+                        <div class="flow-image compare-card">
+                            <img src="images/Carro-inicio.png" alt="Inicio creación de perímetro">
+                        </div>
+                        <div class="flow-content">
+                            <span class="flow-number">01</span>
+                            <h3>Estructura y contexto de compra</h3>
+                            <p>
+                                Se reorganiza el layout separando contenido y resumen. A la izquierda se presenta el
+                                detalle
+                                de compra con imagen, descripción, cantidad y precio en una estructura escaneable.
+                                A la derecha, un resumen sticky permite mantener visibilidad constante del total y la
+                                acción principal.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="flow-step">
+                        <div class="flow-image compare-card">
+                            <img src="images/carro-datos.png" alt="Formulario de datos del perímetro">
+                        </div>
+                        <div class="flow-content">
+                            <span class="flow-number">02</span>
+                            <h3>Ingreso progresivo de datos</h3>
+                            <p>
+                                El formulario se introduce como un paso siguiente, evitando sobrecarga inicial.
+                                Se priorizan únicamente los datos necesarios para completar la compra, reduciendo
+                                fricción
+                                y errores en el proceso.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="flow-step">
+                        <div class="flow-image compare-card">
+                            <img src="images/carro-confirmación.png" alt="Confirmación de creación de perímetro">
+                        </div>
+                        <div class="flow-content">
+                            <span class="flow-number">03</span>
+                            <h3>Confirmación clara y persistente</h3>
+                            <p>
+                                Se reemplaza el feedback efímero por un modal de confirmación con número de compra,
+                                resumen y próximos pasos. Esto elimina incertidumbre y asegura que el usuario comprenda
+                                que la transacción fue completada correctamente.
+                            </p>
+                        </div>
+                    </div>
+
                 </div>
 
-                <div class="flow-grid">
-
-                    <!-- PASO 1 -->
-                    <figure class="flow-step">
-                        <div class="flow-media">
-                            <img src="images/carro2.png" alt="">
-                        </div>
-                        <figcaption>
-                            <span class="flow-label">Paso 1</span>
-                            Detalle de compra con mejor jerarquía, resumen visible y decisiones claras.
-                        </figcaption>
-                    </figure>
-
-                    <!-- PASO 2 -->
-                    <figure class="flow-step">
-                        <div class="flow-media">
-                            <img src="images/carro3.png" alt="">
-                        </div>
-                        <figcaption>
-                            <span class="flow-label">Paso 2</span>
-                            Ingreso de datos ordenado con continuidad visual del resumen.
-                        </figcaption>
-                    </figure>
-
-                    <!-- PASO 3 -->
-                    <figure class="flow-step">
-                        <div class="flow-media">
-                            <img src="images/carro4.png" alt="">
-                        </div>
-                        <figcaption>
-                            <span class="flow-label">Paso 3</span>
-                            Confirmación clara que cierra el flujo con una señal inequívoca de éxito.
-                        </figcaption>
-                    </figure>
-
+                <div class="flow-impact">
+                    <p>
+                        Tras la implementación, se observó una disminución significativa en los contactos a soporte
+                        relacionados con el proceso de compra, validando que la nueva estructura reduce fricción
+                        y mejora la comprensión del flujo, especialmente en usuarios menos familiarizados con entornos
+                        digitales.
+                    </p>
                 </div>
 
             </div>
