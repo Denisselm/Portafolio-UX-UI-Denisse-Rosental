@@ -40,20 +40,21 @@
 
                 <p class="hero-subtitle">
 
-                    Rediseñé la arquitectura UX y definí un sistema de diseño para una intranet compleja, eliminando la
-                    dependencia entre usuarios y permitiendo ejecutar tareas críticas de forma autónoma.
+                    Rediseñé la arquitectura UX de un sistema interno complejo, transformando un entorno basado en
+                    ensayo-error en un sistema predecible, reduciendo la dependencia entre usuarios y permitiendo la
+                    ejecución autónoma de tareas críticas.
 
                 </p>
 
                 <p class="case-context">
-                    Plataforma interna utilizada por múltiples áreas para gestionar operaciones diarias, clientes y
-                    expansión de nuevas líneas de negocio.
+                    Backoffice utilizado por múltiples áreas (marketing, administración, operaciones y gerencia) para
+                    gestionar ventas, clientes, productos y métricas operativas.
                 </p>
 
                 <div class="metrics">
                     <div class="metric-card">
-                        <span>6</span>
-                        <p>Usuarios entrevistados (roles críticos)</p>
+                        <span>8</span>
+                        <p>Entrevistas realizadas (4 áreas clave)</p>
                     </div>
 
 
@@ -65,7 +66,7 @@
                     </div>
                     <div class="metric-card">
                         <span>↓</span>
-                        <p>Reducción de despendencia entre usuarios</p>
+                        <p>Dependencia operativa entre usuarios</p>
                     </div>
                 </div>
             </div>
@@ -102,10 +103,10 @@
             <div class="section-heading">
                 <h2>Problema</h2>
                 <p>
-                    El sistema carecía de una arquitectura clara, con flujos inconsistentes entre módulos que obligaban
-                    a los usuarios a operar por ensayo y error. Esto generaba dependencia constante entre equipos,
-                    bloqueos en tareas críticas y retrasos en la operación diaria, impactando tanto la eficiencia
-                    interna como la experiencia del cliente final.
+                    El sistema presentaba una baja usabilidad estructural: los usuarios operaban por ensayo-error, sin
+                    jerarquía ni feedback del sistema. Como resultado, el 100% de los nuevos empleados requería
+                    asistencia para completar tareas, generando dependencia entre equipos, interrupciones operativas y
+                    errores en procesos críticos como gestión de productos y ventas.
                 </p>
             </div>
 
@@ -145,9 +146,9 @@
             <div class="section-heading">
                 <h2>Investigación</h2>
                 <p>
-                    Realicé entrevistas con usuarios de distintas áreas críticas del negocio para entender cómo operaban
-                    dentro del sistema, identificando bloqueos en tareas clave, dependencia entre equipos y dificultades
-                    en el onboarding de nuevos usuarios.
+                    Realicé 8 entrevistas con usuarios de áreas clave (operaciones, marketing, administración y
+                    gerencia), complementadas con una evaluación heurística del sistema. El objetivo fue identificar
+                    fricciones en tareas críticas, patrones de error y dependencias operativas entre equipos.
                 </p>
             </div>
 
@@ -160,8 +161,9 @@
 
                 <div class="card">
                     <h3>Insight clave</h3>
-                    <p>La falta de flujos claros obligaba a los usuarios a operar por ensayo-error, generando
-                        dependencia entre equipos y dificultando el onboarding de nuevos usuarios.</p>
+                    <p>El problema no era solo visual: la plataforma carecía de un modelo mental claro, obligando a los
+                        usuarios a operar por repetición en lugar de comprensión, lo que aumentaba errores, dependencia
+                        entre usuarios y tiempos de ejecución.</p>
                 </div>
             </div>
 
@@ -175,7 +177,8 @@
             <div class="section-heading">
                 <h2>Decisiones de diseño</h2>
                 <p>
-                    Reduje carga cognitiva mediante estandarización y patrones consistentes.
+                    Enfocé el rediseño en estandarizar patrones de interacción y reducir errores operativos, permitiendo
+                    a los usuarios ejecutar tareas de forma predecible sin depender de memoria o asistencia externa.
                 </p>
             </div>
 
@@ -184,43 +187,71 @@
                 <!-- CARD 1 -->
                 <div class="decision-card">
                     <div class="decision-header">
-                        <h3>Estandarización de tablas</h3>
-                        <p>Unifiqué estructuras y acciones para evitar que los usuarios tuvieran que reaprender cada
-                            módulo.</p>
+                        <h3>Estandarización de patrones de interacción</h3>
+                        <p>
+                            Los usuarios debían reaprender cada módulo debido a estructuras inconsistentes. Definí una
+                            lógica unificada para acciones clave (crear, editar, eliminar, guardar), permitiendo que los
+                            flujos fueran predecibles en todo el sistema.
+                        </p>
                     </div>
 
                     <div class="decision-media">
-                        <img src="images/Tabla.png" alt="Tabla estandarizada">
+                        <img src="images/Tabla.png" alt="Patrones consistentes en tablas">
                     </div>
 
                     <p class="decision-caption">
-                        Tablas consistentes que reducen esfuerzo cognitivo y mejoran la lectura.
+                        ↓ Carga cognitiva · ↑ Velocidad de ejecución · ↓ Dependencia entre usuarios
                     </p>
                 </div>
 
                 <!-- CARD 2 -->
                 <div class="decision-card">
                     <div class="decision-header">
-                        <h3>Formularios con validación</h3>
-                        <p>Incorporé validación en tiempo real para reducir errores y evitar bloqueos en tareas
-                            críticas.</p>
+                        <h3>Reducción de errores mediante validación en tiempo real</h3>
+                        <p>
+                            Los formularios no entregaban feedback, generando errores invisibles y bloqueos. Implementé
+                            validaciones en tiempo real y mensajes específicos, permitiendo a los usuarios identificar y
+                            corregir errores antes de continuar.
+                        </p>
                     </div>
 
                     <div class="decision-media">
-                        <img src="images/formulario.png" alt="Formulario optimizado">
+                        <img src="images/formulario.png" alt="Validación en formularios">
                     </div>
 
                     <p class="decision-caption">
-                        Validación en tiempo real que previene errores y mejora la eficiencia.
+                        ↓ Errores operativos · ↓ Retrabajo · ↑ Autonomía del usuario
                     </p>
                 </div>
 
-                <!-- CARD 3 -->
+                <!-- CARD 3 
                 <div class="decision-card">
                     <div class="decision-header">
-                        <h3>Feedback contextual</h3>
-                        <p>Diseñé estados y mensajes claros para guiar al usuario y mejorar la comprensión de cada
-                            acción dentro del flujo.</p>
+                        <h3>Segmentación de formularios complejos</h3>
+                        <p>
+                            Formularios extensos generaban sobrecarga cognitiva y dificultaban la edición. Reestructuré
+                            la información en secciones progresivas, mostrando solo lo necesario en cada etapa.
+                        </p>
+                    </div>
+
+                    <div class="decision-media">
+                        <img src="images/formulario.png" alt="Formularios estructurados">
+                    </div>
+
+                    <p class="decision-caption">
+                        ↓ Sobrecarga cognitiva · ↑ Comprensión · ↑ Eficiencia en tareas complejas
+                    </p>
+                </div>-->
+
+                <!-- CARD 4 -->
+                <div class="decision-card">
+                    <div class="decision-header">
+                        <h3>Feedback del sistema y confirmación de acciones</h3>
+                        <p>
+                            La ausencia de feedback generaba incertidumbre en los usuarios. Incorporé estados, mensajes
+                            y confirmaciones post-acción para hacer visible el estado del sistema en todo momento. <br>
+                            <br>
+                        </p>
                     </div>
 
                     <div class="decision-media">
@@ -228,7 +259,7 @@
                     </div>
 
                     <p class="decision-caption">
-                        Estados claros que guían al usuario durante cada acción.
+                        ↑ Confianza del usuario · ↓ Incertidumbre · ↑ Control sobre el sistema
                     </p>
                 </div>
 
@@ -242,7 +273,11 @@
 
             <div class="section-header">
                 <h2>Antes vs Después</h2>
-                <p>El rediseño mejora la claridad, control del usuario y consistencia del sistema.</p>
+                <p>
+                    Transformé un sistema basado en ensayo-error a uno predecible, permitiendo ejecutar tareas críticas
+                    con
+                    claridad y autonomía.
+                </p>
             </div>
 
             <div class="comparison-grid">
@@ -252,15 +287,15 @@
                     <h3 class="label before">Antes</h3>
 
                     <div class="image-container">
-                        <img src="images/personas-original.png" alt="Vista antes del rediseño">
+                        <img src="images/intranet-personas.png" alt="Vista antes del rediseño">
                     </div>
 
                     <ul class="comparison-list">
-                        <li>Información concentrada sin jerarquía clara</li>
-                        <li>Acciones no visibles o difíciles de identificar</li>
-                        <li>Filtros confusos sin indicación de estado</li>
-                        <li>Navegación poco predecible entre acciones</li>
-                        <li>Usuarios dependían de apoyo para completar tareas</li>
+                        <li>Interfaz plana → alta carga cognitiva</li>
+                        <li>Acciones poco visibles → ejecución lenta</li>
+                        <li>Sin feedback → errores no detectados</li>
+                        <li>Navegación inconsistente → dependencia de memoria</li>
+                        <li>Dependencia entre usuarios → bloqueos operativos</li>
                     </ul>
                 </div>
 
@@ -269,17 +304,21 @@
                     <h3 class="label after">Después</h3>
 
                     <div class="image-container">
-                        <img src="images/personas-final-editorial.png" alt="Vista después del rediseño">
+                        <img src="images/despues-empresas.png" alt="Vista después del rediseño">
                     </div>
 
                     <ul class="comparison-list">
-                        <li>Información estructurada con jerarquía clara</li>
-                        <li>Acciones visibles y reconocibles dentro del contexto</li>
-                        <li>Filtros con estados claros y fácil interacción</li>
-                        <li>Navegación consistente entre módulos</li>
-                        <li>Usuarios pueden completar tareas sin asistencia</li>
+                        <li>Jerarquía en tablas → escaneo eficiente de datos</li>
+                        <li>Acciones por fila → ejecución directa</li>
+                        <li>Validaciones en tiempo real → menos errores</li>
+                        <li>Patrones consistentes → menor carga cognitiva</li>
+                        <li>Autonomía operativa → menor dependencia</li>
                     </ul>
                 </div>
+                <p class="comparison-impact">
+                    Resultado: usuarios pueden completar tareas sin asistencia tras una inducción básica, reduciendo
+                    interrupciones operativas.
+                </p>
 
             </div>
 
@@ -332,29 +371,29 @@
             <div class="section-heading">
                 <h2>Validación</h2>
                 <p>
-                    Validé las decisiones mediante pruebas con los mismos usuarios entrevistados y seguimiento de
-                    implementación, observando mejoras en la comprensión de los flujos, reducción de errores y mayor
-                    autonomía en tareas críticas.
+                    La validación se realizó en dos niveles: (1) revisión continua con el stakeholder durante el diseño
+                    y (2) feedback cualitativo de usuarios tras la implementación de módulos. Este proceso permitió
+                    identificar mejoras en la ejecución de tareas, reducción de errores y mayor autonomía operativa.
                 </p>
             </div>
 
             <div class="grid-3">
                 <div class="card">
-                    <h3>Autonomía en tareas</h3>
-                    <p>Usuarios pudieron completar tareas críticas sin depender de apoyo de otros equipos.</p>
+                    <h3>Autonomía operativa</h3>
+                    <p>Nuevos usuarios lograron completar tareas sin asistencia tras una inducción básica.</p>
                 </div>
 
                 <div class="card">
-                    <h3>Comprensión de flujos</h3>
-                    <p>Los usuarios identificaron con mayor claridad los pasos y estados dentro de cada proceso.</p>
+                    <h3>Ejecución más eficiente</h3>
+                    <p>Se redujo el tiempo necesario para completar tareas críticas como creación de productos y gestión
+                        de ventas.</p>
                 </div>
 
                 <div class="card">
-                    <h3>Reducción de errores</h3>
-                    <p>La validación en tiempo real permitió detectar y corregir errores antes de bloquear tareas.</p>
+                    <h3>Menos errores en formularios</h3>
+                    <p>Las validaciones en tiempo real permitieron detectar errores antes de bloquear procesos.</p>
                 </div>
             </div>
-
 
 
         </div>
@@ -411,26 +450,55 @@
             <div class="section-heading">
                 <h2>Impacto</h2>
                 <p>
-                    El rediseño permitió reducir la dependencia entre usuarios, mejorar la ejecución de tareas críticas
-                    y facilitar el onboarding, impactando directamente la eficiencia operativa y la experiencia del
-                    cliente final.
+                    El rediseño transformó la operación interna: los nuevos usuarios pasaron de requerir asistencia
+                    constante a operar de forma autónoma tras una inducción básica. Se redujeron errores en tareas
+                    críticas y mejoró significativamente la velocidad de ejecución, disminuyendo interrupciones entre
+                    equipos.
                 </p>
             </div>
 
             <div class="grid-3" style="margin-top: 40px;">
                 <div class="card">
-                    <h3>Autonomía operativa</h3>
-                    <p>Los usuarios pueden ejecutar tareas críticas sin depender de otros equipos.</p>
+                    <h3>↓ Dependencia operativa</h3>
+                    <p>Disminución significativa de consultas entre usuarios para completar tareas.</p>
                 </div>
 
                 <div class="card">
-                    <h3>Onboarding eficiente</h3>
-                    <p>Usuarios nuevos comprenden el sistema sin necesidad de capacitación informal.</p>
+                    <h3>↑ Autonomía en onboarding</h3>
+                    <p>Nuevos usuarios pueden operar el sistema tras una inducción básica.</p>
                 </div>
 
                 <div class="card">
-                    <h3>Impacto en cliente final</h3>
-                    <p>Se reducen errores en procesos que afectan directamente la experiencia del cliente.</p>
+                    <h3>↓ Errores en procesos críticos</h3>
+                    <p>Validaciones y feedback reducen fallas en tareas como creación de productos y ventas.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="case-section">
+        <div class="container">
+
+            <div class="section-heading">
+                <h2>Reflexión</h2>
+                <p>
+                    El mayor desafío no fue rediseñar la interfaz, sino entender y estructurar un sistema sin
+                    documentación previa. A través de historias de usuario y diagramas de flujo, logré abstraer patrones
+                    comunes y unificar la lógica entre módulos.
+                </p>
+            </div>
+
+            <div class="grid-2" style="margin-top: 40px;">
+                <div class="card">
+                    <h3>Lo que haría distinto</h3>
+                    <p>Definiría métricas desde el inicio (tiempo por tarea, tasa de error) y validaría con usuarios en
+                        etapas tempranas para medir impacto con mayor precisión.</p>
+                </div>
+
+                <div class="card">
+                    <h3>Aprendizaje clave</h3>
+                    <p>El valor del diseño no está solo en la interfaz, sino en estructurar sistemas complejos en
+                        patrones comprensibles y escalables.</p>
                 </div>
             </div>
 
