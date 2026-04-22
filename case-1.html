@@ -330,34 +330,54 @@
         <div class="container">
 
             <div class="section-heading">
-                <h2>Design System</h2>
+                <h2>Design System como habilitador de consistencia operativa</h2>
                 <p>
-                    Definí un sistema de diseño para estandarizar patrones entre módulos, reducir inconsistencias en
-                    desarrollo y facilitar la escalabilidad del sistema a nuevas funcionalidades y líneas de negocio.
+                    Estructuré un sistema de diseño para estandarizar la ejecución de tareas críticas en el backoffice,
+                    reduciendo la dependencia entre usuarios.
+
+                    La principal fricción no era solo visual, sino estructural: cada módulo operaba bajo reglas
+                    distintas, obligando a los usuarios a reaprender constantemente.
+
+                    Para resolverlo, construí un sistema basado en:
                 </p>
             </div>
 
             <div class="grid-3" style="margin-top: 40px;">
                 <div class="card">
-                    <h3>Patrones unificados</h3>
-                    <p>Definí reglas consistentes para tablas, formularios y navegación entre módulos.</p>
+                    <h3>Estandarización de acciones en contextos operativos</h3>
+                    <p>Definí una lógica consistente para acciones dentro de tablas y formularios (crear, editar,
+                        eliminar, guardar), asegurando que el comportamiento fuera predecible en todos los módulos.
+                        <br>
+                    <p class="system-case1"> → Resultado: los usuarios pueden ejecutar tareas sin depender de memoria
+                        o asistencia.
+                    </p>
                 </div>
 
                 <div class="card">
-                    <h3>Componentes reutilizables</h3>
-                    <p>Construí componentes que reducen la duplicación y facilitan la implementación en desarrollo.</p>
+                    <h3>Sistema de validación y feedback en tiempo real</h3>
+                    <p>Incorporé validaciones, estados y mensajes consistentes para hacer visible el estado del sistema
+                        durante toda la ejecución de tareas.
+                        <br>
+                    <p class="system-case1"> → Resultado: reducción de errores y mayor control del usuario. </p>
+                    </p>
                 </div>
 
                 <div class="card">
-                    <h3>Escalabilidad del sistema</h3>
-                    <p>Permitió integrar nuevas funcionalidades y módulos sin romper la coherencia del sistema.</p>
+                    <h3>Componentes definidos a partir de flujos reales</h3>
+                    <p>Los componentes no se diseñaron como elementos aislados, sino como parte de flujos completos
+                        (gestión en tablas, creación y edición en formularios).
+                        <br>
+                    <p class="system-case1"> → Resultado: mayor coherencia entre módulos y menor fricción en el uso
+                        diario.</p>
+                    </p>
                 </div>
             </div>
 
             <div class="case-image">
-                <img src="images/systems-editorial.png" alt="Design System">
+                <img src="images/design-system.png" alt="Design System">
                 <p class="case-image-caption">
-                    Sistema de diseño con componentes reutilizables y reglas consistentes.
+                    Sistema de diseño construido a partir de flujos operativos reales, enfocado en consistencia,
+                    validación y ejecución eficiente de tareas críticas.
                 </p>
             </div>
 
