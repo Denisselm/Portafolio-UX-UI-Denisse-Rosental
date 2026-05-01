@@ -392,3 +392,28 @@ body {
         font-size: 40px;
     }
 }
+
+.project-card {
+    text-decoration: none;
+    display: block;
+    transition: transform 0.3s ease, border-color 0.3s ease;
+}
+
+.project-card:hover {
+    transform: translateY(-6px);
+}
+
+.project-cta {
+    margin-top: 28px;
+    font-size: 14px;
+    font-weight: 600;
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    color: #7aa2ff;
+    transition: gap 0.25s ease;
+}
+
+.project-card:hover .project-cta {
+    gap: 12px;
+}
