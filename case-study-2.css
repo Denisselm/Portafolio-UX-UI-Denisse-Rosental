@@ -96,14 +96,14 @@ h1 {
 .metric-card {
     background: rgba(30, 41, 59, 0.6);
     backdrop-filter: blur(10px);
-    padding: 24px;
+    padding: 20px;
     border-radius: 16px;
     flex: 1;
     border: 1px solid rgba(148, 163, 184, 0.1);
 }
 
 .metric-card .span-2 {
-    font-size: 24px;
+    font-size: 16px;
     color: #38bdf8;
     display: block;
 }
@@ -908,4 +908,28 @@ figcaption {
     color: var(--text-secondary);
     margin-top: 12px;
     max-width: 720px;
+}
+
+.problem-list {
+    margin-top: 12px;
+    padding-left: 20px;
+    color: #cbd5f5;
+    line-height: 1.6;
+}
+
+.rol-restricciones {
+    margin-top: 24px;
+}
+
+.p-proceso {
+    margin-bottom: 50
+}
+
+.validación {
+    margin-top: 50px;
+}
+
+.impacto {
+    margin-top: 24px;
+    font-size: 16px;
 }

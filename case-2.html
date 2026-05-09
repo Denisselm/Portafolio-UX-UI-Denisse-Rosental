@@ -26,33 +26,37 @@
     <section class="hero">
         <div class="container hero-grid">
             <div>
-                <p class="eyebrow">Caso de estudio</p>
-                <h1>Iotera — De prototipo técnico a producto operable en plataforma SaaS IoT</h1>
+                <p class="eyebrow">Caso de estudio · Iotera · SaaS B2B IoT</p>
+                <h1>Farm QC — Diseño de interacción que habilitó la viabilidad comercial de un SaaS IoT </h1>
                 <p class="subtitle">
-                    Transformé una maqueta técnica sin estructura UX en un sistema operable, reduciendo fricción crítica
-                    y habilitando la adopción en usuarios no expertos.
+                    Definí el modelo de interacción de un SaaS IoT agrícola desde sus bases, convirtiendo un
+                    producto
+                    inviable en piloto en un sistema adoptado activamente por múltiples clientes.
                 </p>
 
                 <div class="metrics">
                     <div class="metric-card">
                         <span class="span-2">~5/día → 1–2/semana</span>
-                        <p>Reducción de contactos a soporte</p>
+                        <p>Contactos a soporte técnico</p>
                     </div>
                     <div class="metric-card">
                         <span class="span-2">↓ abandono crítico</span>
                         <p>Flujo principal ahora completado por usuarios</p>
                     </div>
                     <div class="metric-card">
-                        <span class="span-2">3 empresas</span>
-                        <p>Adopción activa post rediseño</p>
+                        <span class="span-2">Clientes activos</span>
+                        <p>Adopción activa post lanzamiento</p>
                     </div>
                 </div>
             </div>
 
             <div class="hero-card">
-                <p><strong>Rol:</strong> Product Designer</p>
+                <p><strong>Rol:</strong> UX/UI Designer</p>
                 <p><strong>Duración:</strong> ~12 meses</p>
                 <p><strong>Tipo:</strong> SaaS B2B IoT</p>
+                <p><strong>Equipo:</strong> Product Owner, devs full stack, líder técnico</p>
+                <p><strong>Metodología:</strong> Scrum · Jira</p>
+
             </div>
         </div>
     </section>
@@ -61,38 +65,41 @@
     <section class="case-section fade-in">
         <figure class="case-figure">
             <div class="project-image media-frame media-frame--hero">
-                <img src="images/inicio-farmqc.png"
+                <img src="images/Farmqc-confirmacion.png"
                     alt="Vista rediseñada del checkout de Outlife con detalle de compra, resumen lateral y CTA principal">
             </div>
             <figcaption>
-                Vista inicio de sesión de SaaS B2B Farm QC
+                Sistema Farm QC: pantalla de confirmación con perímetro trazado en mapa satelital y resumen de
+                configuración completada
+
             </figcaption>
         </figure>
     </section>
 
-    <!-- CONTEXTO NEGOCIO -->
+    <!-- CONTEXTO y problema-->
     <section class="section">
         <div class="container">
-            <h2>Contexto de negocio</h2>
+            <h2>Contexto y problema</h2>
             <div class="card">
                 <p>
-                    Farm QC es un SaaS B2B basado en IoT orientado a empresas agrícolas,
-                    cuyo modelo de negocio depende de la adopción operativa del sistema
-                    por parte de equipos en terreno.
+                    Farm QC es el producto SaaS B2B de Iotera para empresas agrícolas que necesitan monitorear
+                    perímetros y sensores IoT en terreno. El modelo de negocio depende de que equipos operativos con
+                    distintos niveles de alfabetización digital adopten el sistema en su trabajo diario.
                 </p>
                 <p>
-                    La fricción en el uso inicial impactaba directamente en la retención
-                    y en la viabilidad comercial del producto.
+                    El producto tenía funcionalidad técnica completa pero era inoperable para usuarios reales. La causa
+                    no era visual: el sistema exigía toma de decisiones constante en usuarios sin experiencia previa,
+                    sin guías, sin feedback de estado ni validaciones que previnieran errores.
                 </p>
             </div>
         </div>
     </section>
 
     <!-- PROBLEMA -->
-    <section class="section">
+    <section>
         <div class="container split">
             <div>
-                <h2>El problema</h2>
+                <!--<h2>El problema</h2>
 
                 El producto era funcional a nivel técnico, pero inviable a nivel de uso.
                 Usuarios reales no lograban completar tareas críticas sin asistencia, generando dependencia constante de
@@ -111,19 +118,20 @@
                 <p>
                     El problema no era visual, sino estructural: el sistema exigía toma de decisiones constante
                     en usuarios no expertos, sin guías claras, feedback ni validaciones.
-                </p>
+                </p>-->
 
-                <ul>
-                    <li>Flujos no intuitivos</li>
-                    <li>Acciones poco visibles</li>
-                    <li>Ausencia de feedback y validación</li>
-                    <li>Alta dependencia de soporte</li>
+                <ul class="problem-list">
+                    <li>Flujos sin progresión explícita ni indicación de siguiente paso</li>
+                    <li>Acciones críticas sin jerarquía visual clara</li>
+                    <li>Ausencia de feedback de estado, error y confirmación</li>
+                    <li>Dependencia total de soporte para avanzar en tareas básicas</li>
                 </ul>
             </div>
             <div class="problem-box">
                 <h3>Impacto crítico</h3>
                 <p>80% de usuarios no completaba la tarea principal.</p>
-                <p>El cliente piloto abandonó el producto.</p>
+                <p>El cliente piloto abandonó el producto por inusabilidad.</p>
+                <p>El producto era comercialmente inviable en ese estado.</p>
             </div>
         </div>
     </section>
@@ -131,15 +139,16 @@
 
 
 
-    <!-- USUARIOS -->
+    <!-- Contexto de trabajo -->
     <section class="section">
         <div class="container">
-            <h2>Usuarios</h2>
+            <h2>Contexto de trabajo</h2>
             <div class="card">
+                <strong>Usuarios</strong>
                 <p>
-                    El sistema debía ser utilizado por perfiles muy distintos: desde gerencia hasta operarios en
-                    terreno,
-                    muchos de ellos sin experiencia previa en herramientas digitales complejas.
+                    Dos perfiles: operarios en terreno sin experiencia digital previa, y supervisión con uso ocasional.
+                    La brecha obligaba a diseñar flujos operables para el usuario menos experto sin sacrificar utilidad
+                    para el perfil técnico.
                 </p>
 
                 <p>
@@ -149,73 +158,95 @@
                 </p>
             </div>
         </div>
-    </section>
 
-    <!-- ROL -->
-    <section class="section">
-        <div class="container">
-            <h2>Rol & Restricciones</h2>
+        <div class=" container rol-restricciones">
+
             <div class="grid-2">
                 <div class="card">
-                    <strong>Rol</strong>
+                    <strong>Mi rol</strong>
 
                     <p>
-                        Definí el modelo de interacción del producto, transformando una maqueta técnica en una
-                        experiencia operable.
-                        Trabajé en la estructuración de flujos, jerarquía de información y criterios de interacción para
-                        reducir abandono y dependencia de soporte.
+                        Contratada como UX/UI Designer por Iotera. Trabajé con el Product Owner bajo Scrum, con sprint
+                        reviews junto a devs full stack y líder técnico, gestionando historias de usuario en Jira.
+                        Definí arquitectura de flujos, jerarquía de información y sistema de estados.
                     </p>
                 </div>
                 <div class="card">
-                    <strong>Restricciones</strong>
+                    <strong>Restricciones técnicas</strong>
                     <p>
-                        El diseño estuvo condicionado por librerías y APIs no modificables, lo que limitaba la
-                        personalización de componentes.
-                        Esto requirió adaptar las decisiones UX a estructuras existentes, priorizando claridad del flujo
-                        por sobre flexibilidad visual.
+                        Google Maps y APIs de datos satelitales —no modificables— condicionaron el espacio de diseño
+                        disponible. Las integré como punto de partida, construyendo claridad de flujo alrededor de
+                        componentes que no podía controlar completamente.
                     </p>
                 </div>
             </div>
         </div>
     </section>
+
+
+
+
+
 
     <!-- VALIDACIÓN -->
     <section class="section">
         <div class="container">
-            <h2>Validación de decisiones</h2>
+            <h2>Proceso</h2>
 
-            <div class="grid-2">
+            <p class="p-proceso">Antes de producir pantallas, mapeé el flujo existente para identificar dónde y por qué
+                los usuarios se
+                bloqueaban. El diagnóstico reveló tres patrones recurrentes: no saber cómo iniciar, completar pasos
+                incorrectamente sin saberlo, e interpretar pantallas de error como fin del proceso.</p>
 
-                <div class="card">
-                    <strong>Testeo iterativo</strong>
-                    <p>
-                        Realicé pruebas continuas con usuarios no expertos, simulando condiciones reales de uso para
-                        detectar bloqueos en tareas clave.
-                    </p>
+            <figure class="case-figure">
+                <div class="project-image media-frame media-frame--hero">
+                    <img src="images/Diagrama de flujo_FarmQC.png"
+                        alt="Vista rediseñada del checkout de Outlife con detalle de compra, resumen lateral y CTA principal">
                 </div>
+                <figcaption>
+                    User flow completo — camino feliz y rutas de error identificadas en la etapa de diagnóstico
 
-                <div class="card">
-                    <strong>Identificación de fricción</strong>
-                    <p>
-                        Se observaron patrones recurrentes donde los usuarios no sabían cómo avanzar, dudaban de sus
-                        acciones o abandonaban tareas antes de completarlas.
-                    </p>
-                </div>
+                </figcaption>
+            </figure>
 
-                <div class="card">
-                    <strong>Iteración basada en comportamiento</strong>
-                    <p>
-                        Cada iteración del flujo se ajustó en función de estos bloqueos, priorizando claridad,
-                        progresión y reducción de decisiones.
-                    </p>
-                </div>
 
-            </div>
+
         </div>
+
+        <section class="section">
+            <div class="container">
+                <h3>
+                    Criterios derivados del diagnóstico
+                </h3>
+                <div class="card">
+                    <ul class="problem-list">
+                        <li>Una acción prioritaria por pantalla</li>
+                        <li>Visibilidad constante de estado del sistema</li>
+                        <li>Validación en tiempo real, no al final del flujo</li>
+                        <li>Completitud sobre flexibilidad</li>
+                    </ul>
+
+
+
+                </div>
+            </div>
+
+            <div class="container validación">
+                <h3>
+                    Validación iterativa
+                </h3>
+
+                <p>Pruebas continuas con los mismos operarios del piloto fallido, observando comportamiento en tareas
+                    específicas. Cada iteración respondió directamente a bloqueos observados, no a suposiciones de
+                    diseño.</p>
+            </div>
+        </section>
+
+
     </section>
 
     <!-- CRITERIOS -->
-    <section class="section">
+    <!--<section class="section">
         <div class="container">
             <h2>Criterios de diseño</h2>
             <div class="card">
@@ -227,10 +258,10 @@
                 </ul>
             </div>
         </div>
-    </section>
+    </section>-->
 
     <!-- DECISIONES -->
-    <section class="section">
+    <!--<section class="section">
         <div class="container">
             <h2>Decisiones clave</h2>
             <div class="grid-3">
@@ -260,7 +291,7 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section>-->
 
     <!-- BEFORE AFTER -->
     <section class="section dark">
@@ -275,42 +306,44 @@
             <div class="compare-grid ">
                 <div class="compare-card">
                     <h3>Antes</h3>
+                    <p>Interfaz maqueta original Farm QC: mapa satelital sin guía, sin acción clara, sin jerarquía</p>
                     <img src="images/antes-farmqc.png">
                     <ul>
                         <li>Sin indicación de acción inicial</li>
-                        <li>Interfaz dependiente de interpretación del usuario</li>
-                        <li>No existe jerarquía ni guía de flujo</li>
-                        <li>Alta probabilidad de abandono en el primer paso</li>
+                        <li>Sin progresión ni jerarquía visual</li>
+                        <li>80% de usuarios abandonaba en este punto</li>
+
                     </ul>
                 </div>
 
                 <div class="compare-card">
                     <h3>Después</h3>
+                    <p>Interfaz Farm QC diseñada: modal centrado con instrucción, stepper de progresión y CTA único</p>
                     <img src="images/Farmqc-inicio.png">
                     <ul>
-                        <li>Inicio guiado con acción única y clara</li>
-                        <li>El sistema indica qué hacer y cuándo hacerlo</li>
-                        <li>Reducción de decisiones en usuarios no expertos</li>
+                        <li>Stepper visible: el usuario sabe dónde está</li>
+                        <li>Instrucción contextual + acción única</li>
                         <li>Inicio del flujo sin necesidad de soporte</li>
+
                     </ul>
                 </div>
             </div>
 
-            <!--<h3>Cómo se resolvió el problema</h3>-->
+            <!--<h3>Cómo se resolvió el problema</h3>
 
             <p class="flow-impact">
                 Para eliminar el abandono, diseñé un flujo guiado donde el sistema acompaña al usuario
                 desde el primer paso hasta la configuración completa, reduciendo la toma de decisiones
                 y asegurando la completitud de la tarea.
-            </p>
+            </p>-->
 
         </div>
     </section>
 
     <!-- SOLUCIÓN -->
-    <section class="section">
+    <!--<section class="section">
         <div class="container">
-            <h2>Solución</h2>
+            <h2>Solución — flujo crítico diseñado</h2>
             <p>
                 La solución se materializó en un sistema de interacción consistente,
                 donde cada flujo, componente y estado responde a la necesidad de guiar al usuario
@@ -343,17 +376,19 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section>-->
 
     <!-- FLUJO -->
     <section class="section dark flow-section">
         <div class="container">
 
-            <h2>Flujo crítico: configuración inicial del sistema</h2>
+            <h2>Solución — flujo crítico diseñado
+            </h2>
 
             <p>
-                Este flujo definía si el usuario lograba utilizar el producto o lo abandonaba.
-                Sin completar esta configuración inicial, el sistema no tenía valor operativo.
+                Cada pantalla resuelve uno de los tres patrones de bloqueo identificados en el diagnóstico. Las
+                restricciones de Google Maps y APIs satelitales acotaron el espacio visual disponible — la solución fue
+                construir consistencia de flujo alrededor de esas limitaciones.
             </p>
 
             <div class="flow">
@@ -366,8 +401,11 @@
                         <span class="flow-number">01</span>
                         <h3>Inicio guiado</h3>
                         <p>
-                            Se elimina la ambigüedad inicial forzando una única acción clara.
-                            El usuario no necesita interpretar la interfaz, solo seguir la instrucción.
+                            La decisión central fue usar un modal superpuesto sobre el mapa en lugar de instrucciones en
+                            la barra lateral — el usuario no puede ignorarlo ni interpretarlo como decoración. El fondo
+                            del mapa queda visible pero bloqueado, comunicando que existe contenido esperando una acción
+                            antes de ser accesible. Una sola ruta posible elimina la parálisis de decisión que causaba
+                            el abandono inicial.
                         </p>
                     </div>
                 </div>
@@ -380,8 +418,9 @@
                         <span class="flow-number">02</span>
                         <h3>Ingreso de datos</h3>
                         <p>
-                            La información se presenta en bloques progresivos,
-                            evitando sobrecarga cognitiva y reduciendo errores en usuarios no expertos.
+                            Información organizada en bloques progresivos —
+                            Validación en tiempo real que previene errores antes de avanzar al siguiente paso. Resuelve
+                            el patrón de usuarios que completaban pasos incorrectamente sin saberlo.
                         </p>
                     </div>
                 </div>
@@ -394,21 +433,22 @@
                         <span class="flow-number">03</span>
                         <h3>Confirmación</h3>
                         <p>
-                            Se entrega feedback inmediato que confirma la acción realizada, eliminando incertidumbre
-                            y asegurando que el usuario entienda el resultado del proceso.
+                            Feedback inmediato con resumen visible de la acción completada y el perímetro trazado en el
+                            mapa. El usuario ve el resultado de su acción antes de continuar. Resuelve el patrón de
+                            usuarios que interpretaban la ausencia de feedback como error del sistema.
                         </p>
                     </div>
                 </div>
 
             </div>
 
-            <div class="flow-impact">
+            <!--<div class="flow-impact">
                 <p>
                     El rediseño permitió transformar un flujo que anteriormente generaba abandono en un proceso
                     comprensible y continuo, reduciendo la necesidad de soporte y habilitando la correcta configuración
                     del sistema.
                 </p>
-            </div>
+            </div>-->
 
         </div>
     </section>
@@ -416,19 +456,20 @@
     <!-- IMPACTO -->
     <section class="section">
         <div class="container">
-            <h2>Impacto en negocio y adopción</h2>
+            <h2>Impacto en negocio</h2>
             <div class="card">
                 <ul>
                     <li>Reducción de soporte: de múltiples contactos diarios a 1–2 semanales</li>
-                    <li>Usuarios completan flujos críticos sin asistencia</li>
-                    <li>Transición de abandono en piloto a adopción en múltiples empresas</li>
-                    <li>Habilitación comercial del producto tras resolver su usabilidad</li>
+                    <li>Flujo crítico completado de forma autónoma por usuarios no expertos</li>
+                    <li>Producto adoptado activamente por clientes en rubros distintos</li>
+                    <li>Transición de producto inviable en piloto a producto comercialmente activo</li>
                 </ul>
 
-                <p class="impact-note">
-                    La mejora en usabilidad permitió que el producto pasara de ser inviable en etapa piloto a ser
-                    utilizado activamente por empresas en distintos rubros.
-                </p>
+                <div class="impacto">
+                    Resolver la usabilidad no fue una mejora incremental: fue la condición que habilitó la existencia
+                    comercial del producto.
+                </div>
+
             </div>
         </div>
     </section>
@@ -436,65 +477,56 @@
     <!-- TRADE OFFS -->
     <section class="section">
         <div class="container">
-            <h2>Trade-offs y limitaciones</h2>
+            <h2>Trade-offs y aprendizajes</h2>
             <div class="card">
+                <h3>Trade-off principal</h3>
+                <p>Prioricé claridad de flujo sobre control visual de componentes. Usuarios avanzados tienen menor
+                    granularidad en la visualización geoespacial. Fue una decisión consciente: en etapa de adopción
+                    crítica,
+                    reducir abandono tenía mayor impacto que optimizar para usuarios expertos que aún no existían en el
+                    sistema.</p>
+            </div>
+        </div>
 
-                <p>
-                    Limitaciones técnicas impidieron modificar componentes base.
-                </p>
+        <!-- APRENDIZAJE -->
 
-                <p>
-                    Se priorizó claridad del flujo sobre flexibilidad del sistema.
-                </p>
-                <p>
-                    Esto implica que usuarios avanzados tienen menor control,
-                    pero reduce significativamente el riesgo de abandono en usuarios nuevos.
-                </p>
+        <div class="container ">
+
+            <div class="card validación ">
+                <h3>Aprendizajes</h3>
+
+                <p>Farm QC tenía funcionalidad completa antes de mi incorporación y seguía siendo inusable. En SaaS
+                    B2B, adopción no es consecuencia de funcionalidad — es consecuencia de guía.</p>
+
+                <p>Diseñar con restricciones técnicas reales obliga a priorizar. Esa restricción fue determinante
+                    para mantener el foco en claridad de flujo en lugar de perfección visual.</p>
+
             </div>
         </div>
     </section>
 
-    <!-- APRENDIZAJE -->
-    <section class="section">
-        <div class="container">
-            <h2>Aprendizajes</h2>
-            <div class="card">
 
-                <ul>
-                    <li>
-                        En productos B2B, la adopción no depende de la funcionalidad, sino de la capacidad del
-                        sistema
-                        de guiar al usuario en cada paso sin requerir interpretación.
-                    </li>
 
-                    <li>
-                        Reducir la cantidad de decisiones en usuarios no expertos tiene mayor impacto que agregar
-                        flexibilidad
-                        o funcionalidades avanzadas.
-                    </li>
 
-                    <li>
-                        Diseñar bajo restricciones técnicas obliga a priorizar claridad del flujo por sobre la
-                        perfección visual,
-                        lo que puede ser determinante para la continuidad del producto.
-                    </li>
-                </ul>
-            </div>
-        </div>
 
-    </section>
-
-    <!-- NEXT 
+    <!-- NEXT -->
     <section class="container">
         <h2>Lo que haría a continuación</h2>
         <div class="card">
-            <ul>
-                <li>Testeo con usuarios reales</li>
-                <li>Medición de conversión</li>
-                <li>Iteración del onboarding</li>
+            <ul class="problem-list">
+                <li> <strong>Onboarding estructurado:</strong> reducir la carga de soporte en los primeros días de cada
+                    cliente nuevo con
+                    un flujo de activación guiado.</li>
+                <li> <strong>Analítica de tiempo por tarea: </strong>identificar con datos qué pasos del flujo aún
+                    generan fricción y priorizar iteraciones.</li>
+                <li> <strong>Modo avanzado progresivo:</strong>controles de mayor granularidad accesibles solo para
+                    usuarios con experiencia acumulada, sin afectar la experiencia del usuario nuevo.</li>
+
+
+
             </ul>
         </div>
-    </section>-->
+    </section>
 
     <!-- Sección CTA sobre el footer -->
     <section class="next-case">
