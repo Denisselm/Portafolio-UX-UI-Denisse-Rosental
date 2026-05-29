@@ -1,0 +1,723 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Outlife Intranet — Caso de estudio UX/UI · Denisse Rosental</title>
+
+    <meta name="description"
+        content="Caso de estudio UX/UI: diseño desde cero de sistema interno para gestión operativa, clientes y productos en Outlife.">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="case-study-1.css">
+</head>
+
+<body>
+
+    <!-- HEADER -->
+    <header class="header">
+        <div class="container nav-container">
+            <a href="index.html" class="logo">Denisse Rosental</a>
+
+            <nav class="nav">
+                <a href="index.html#work">Trabajo</a>
+                <a href="index.html#about">Sobre mí</a>
+                <a href="index.html#contact">Contacto</a>
+            </nav>
+        </div>
+    </header>
+
+
+    <!-- HERO -->
+    <section class="case-study-hero">
+        <div class="container case-hero-grid">
+
+            <div>
+
+                <p class="eyebrow">
+                    Caso de estudio · Sistema interno / Backoffice
+                </p>
+
+                <h1 class="hero-title">
+                    Outlife Intranet — Diseño de sistema interno desde cero
+                </h1>
+
+                <p class="hero-subtitle">
+                    Diseñé desde cero la experiencia UX/UI de un sistema interno utilizado por distintas áreas de la empresa,
+                    creando flujos, componentes y patrones consistentes para facilitar tareas operativas complejas.
+                </p>
+
+                <p class="case-context">
+                    Plataforma utilizada por operaciones, marketing, administración y gerencia
+                    para gestionar clientes, ventas, productos y tareas administrativas.
+                    El proyecto incluyó arquitectura de información, diseño de flujos,
+                    diseño visual, design system y seguimiento de implementación.
+                </p>
+
+                <div class="metrics">
+
+                    <div class="metric-card">
+                        <span>8</span>
+                        <p>Entrevistas con usuarios de distintas áreas</p>
+                    </div>
+
+                    <div class="metric-card">
+                        <span>8</span>
+                        <p>Módulos diseñados y documentados</p>
+                    </div>
+
+                    <div class="metric-card">
+                        <span>UX/UI</span>
+                        <p>Trabajo end-to-end desde research hasta design QA</p>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="case-meta">
+
+                <div class="meta-item">
+                    <h4>Rol</h4>
+                    <p>UX/UI Designer</p>
+                </div>
+
+                <div class="meta-item">
+                    <h4>Duración</h4>
+                    <p>8 meses</p>
+                </div>
+
+                <div class="meta-item">
+                    <h4>Metodología</h4>
+                    <p>Trabajo iterativo con dailies y feedback continuo</p>
+                </div>
+
+                <div class="meta-item">
+                    <h4>Herramientas</h4>
+                    <p>Figma · Miro · Monday</p>
+                </div>
+
+                <div class="meta-item">
+                    <h4>Equipo</h4>
+                    <p>Líder de proyecto + equipo de desarrollo externo</p>
+                </div>
+
+                <div class="meta-item">
+                    <h4>Estado</h4>
+                    <p>Implementación progresiva por módulos</p>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+
+    <!-- CONTEXTO -->
+    <section class="case-section">
+        <div class="container">
+
+            <div class="section-heading">
+
+                <h2>Contexto y problema</h2>
+
+                <p>
+                    Outlife contaba con una intranet funcional, pero con múltiples inconsistencias entre módulos.
+                    La interfaz tenía poca jerarquía visual, patrones distintos según cada sección
+                    y ausencia de feedback claro en acciones importantes.
+                </p>
+
+                <p>
+                    Esto generaba confusión en tareas frecuentes y hacía que muchos usuarios dependieran
+                    de compañeros para validar procesos o encontrar funcionalidades específicas.
+                    Según feedback entregado por el líder de proyecto, los usuarios nuevos
+                    necesitaban acompañamiento frecuente durante sus primeros días utilizando el sistema.
+                </p>
+
+            </div>
+
+            <div class="case-image">
+                <img src="images/intranet.png"
+                    alt="Sistema original de Outlife con patrones inconsistentes y baja jerarquía visual">
+
+                <p class="case-image-caption">
+                    Sistema original utilizado por distintas áreas de la empresa.
+                </p>
+            </div>
+
+
+            <div class="grid-3" style="margin-top: 40px;">
+
+                <div class="card">
+                    <h3>Patrones inconsistentes entre módulos</h3>
+
+                    <p>
+                        Cada módulo funcionaba de manera distinta, dificultando el aprendizaje
+                        y obligando a los usuarios a reaprender acciones frecuentes.
+                    </p>
+                </div>
+
+                <div class="card">
+                    <h3>Procesos operativos fragmentados</h3>
+
+                    <p>
+                        Algunas validaciones y revisiones se realizaban fuera de la plataforma,
+                        generando dependencia entre equipos y pérdida de tiempo operativo.
+                    </p>
+                </div>
+
+                <div class="card">
+                    <h3>Poco feedback del sistema</h3>
+
+                    <p>
+                        El sistema entregaba poca información sobre errores, estados o confirmaciones,
+                        lo que generaba incertidumbre al ejecutar ciertas acciones.
+                    </p>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+
+    <!-- RESEARCH -->
+    <section class="case-section">
+        <div class="container">
+
+            <div class="section-heading">
+
+                <h2>Investigación</h2>
+
+                <p>
+                    Realicé entrevistas con usuarios de operaciones, marketing,
+                    administración y gerencia para entender cómo utilizaban el sistema
+                    en su trabajo diario y detectar los principales puntos de fricción.
+                </p>
+
+                <p>
+                    Complementé esto con revisión de flujos existentes y evaluación heurística
+                    para identificar inconsistencias de navegación, problemas de feedback
+                    y diferencias de comportamiento entre módulos.
+                </p>
+
+            </div>
+
+            <div class="case-image">
+                <img src="images/h"
+                    alt="Síntesis de hallazgos de investigación en sistema interno Outlife">
+
+                <p class="case-image-caption">
+                    Síntesis de observaciones obtenidas durante entrevistas y revisión de flujos.
+                </p>
+            </div>
+
+            <div class="grid-2" style="margin-top: 40px;">
+
+                <div class="card">
+                    <h3>Hallazgos recurrentes</h3>
+
+                    <p>
+                        Los usuarios mencionaban dificultades para encontrar acciones,
+                        diferencias de comportamiento entre módulos y falta de claridad
+                        al completar tareas frecuentes.
+                    </p>
+                </div>
+
+                <div class="card">
+                    <h3>Insight principal</h3>
+
+                    <p>
+                        Aunque el sistema cumplía funcionalmente, la falta de consistencia
+                        hacía difícil aprenderlo y utilizarlo con seguridad entre distintas áreas.
+                    </p>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+
+    <!-- CONTEXTO DE TRABAJO -->
+    <section class="case-section">
+        <div class="container">
+
+            <div class="section-heading">
+
+                <h2>Contexto de trabajo</h2>
+
+                <p>
+                    Trabajé de forma remota como responsable UX/UI del proyecto,
+                    colaborando directamente con el líder de proyecto y el equipo de desarrollo externo.
+                </p>
+
+                <p>
+                    Las prioridades iban cambiando según necesidades del negocio,
+                    por lo que el trabajo se desarrolló de manera iterativa,
+                    avanzando módulo por módulo.
+                </p>
+
+            </div>
+
+            <div class="grid-3" style="margin-top: 40px;">
+
+                <div class="card">
+                    <h3>Diseño de flujos y pantallas</h3>
+
+                    <p>
+                        Diseñé flujos, wireframes e interfaces en Figma,
+                        documentando funcionalidades y comportamiento de componentes.
+                    </p>
+                </div>
+
+                <div class="card">
+                    <h3>Trabajo con stakeholders</h3>
+
+                    <p>
+                        Participé en reuniones y dailies con el líder de proyecto
+                        para revisar avances, resolver dudas y priorizar funcionalidades.
+                    </p>
+                </div>
+
+                <div class="card">
+                    <h3>Design QA</h3>
+
+                    <p>
+                        Revisé implementaciones desarrolladas para detectar inconsistencias
+                        visuales o funcionales respecto a los diseños entregados.
+                    </p>
+                </div>
+
+            </div>
+
+            <div class="case-image">
+
+                <img src="images/design QA-editorial.png"
+                    alt="Proceso de design QA y seguimiento de implementación">
+
+                <p class="case-image-caption">
+                    Seguimiento de implementación y revisión de inconsistencias durante desarrollo.
+                </p>
+
+            </div>
+
+        </div>
+    </section>
+
+
+    <!-- BEFORE AFTER -->
+    <section class="before-after">
+        <div class="container">
+
+            <div class="section-header">
+
+                <h2>Antes vs Después</h2>
+
+                <p>
+                    El objetivo del proyecto fue generar una experiencia más consistente,
+                    clara y fácil de utilizar entre los distintos módulos del sistema.
+                </p>
+
+            </div>
+
+            <div class="comparison-grid">
+
+                <div class="comparison-card">
+
+                    <h3 class="label before">Antes</h3>
+
+                    <div class="image-container">
+                        <img src="images/intranet-personas.png"
+                            alt="Versión original del sistema Outlife">
+                    </div>
+
+                    <ul class="comparison-list">
+                        <li>Poca jerarquía visual en tablas y formularios</li>
+                        <li>Patrones distintos entre módulos</li>
+                        <li>Acciones difíciles de identificar</li>
+                        <li>Poco feedback del sistema</li>
+                        <li>Mayor dependencia entre usuarios</li>
+                    </ul>
+
+                </div>
+
+                <div class="comparison-card">
+
+                    <h3 class="label after">Después</h3>
+
+                    <div class="image-container">
+                        <img src="images/despues-tabla.png"
+                            alt="Nueva interfaz diseñada para sistema Outlife">
+                    </div>
+
+                    <ul class="comparison-list">
+                        <li>Mayor claridad visual y organización de información</li>
+                        <li>Patrones más consistentes entre módulos</li>
+                        <li>Acciones visibles y mejor organizadas</li>
+                        <li>Validaciones y mensajes más claros</li>
+                        <li>Flujos más fáciles de aprender</li>
+                    </ul>
+
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+
+    <!-- DECISIONES -->
+    <section class="case-section decisions-section">
+
+        <div class="container">
+
+            <div class="section-heading">
+
+                <h2>Decisiones de diseño</h2>
+
+                <p>
+                    Las decisiones de diseño se enfocaron en reducir inconsistencias,
+                    mejorar la claridad de uso y facilitar tareas frecuentes dentro del sistema.
+                </p>
+
+            </div>
+
+            <div class="decisions-grid">
+
+                <div class="decision-card">
+
+                    <div class="decision-header">
+
+                        <h3>Patrones consistentes entre módulos</h3>
+
+                        <p>
+                            Definí estructuras similares para tablas, formularios y acciones frecuentes,
+                            buscando que los usuarios pudieran reconocer patrones comunes
+                            entre distintas áreas del sistema.
+                        </p>
+
+                    </div>
+
+                    <div class="decision-media">
+                        <img src="images/Tabla.png"
+                            alt="Tablas y patrones consistentes en sistema Outlife">
+                    </div>
+
+                    <p class="decision-caption">
+                        Mayor consistencia visual y reducción de fricción entre módulos.
+                    </p>
+
+                </div>
+
+
+                <div class="decision-card">
+
+                    <div class="decision-header">
+
+                        <h3>Validaciones y feedback más claros</h3>
+
+                        <p>
+                            Incorporé mensajes de error, estados y validaciones visibles
+                            para ayudar a los usuarios a identificar problemas antes
+                            de continuar ciertos procesos.
+                        </p>
+
+                    </div>
+
+                    <div class="decision-media">
+                        <img src="images/formulario.png"
+                            alt="Formulario con validaciones y feedback visual">
+                    </div>
+
+                    <p class="decision-caption">
+                        Mejor comprensión de errores y estados dentro de formularios.
+                    </p>
+
+                </div>
+
+
+                <div class="decision-card">
+
+                    <div class="decision-header">
+
+                        <h3>Jerarquía visual y organización de acciones</h3>
+
+                        <p>
+                            Reorganicé información, acciones y prioridades visuales
+                            para facilitar el escaneo rápido de datos y mejorar la lectura
+                            de tablas y módulos administrativos.
+                        </p>
+
+                    </div>
+
+                    <div class="decision-media">
+                        <img src="images/Feedback.png"
+                            alt="Estados y feedback visual del sistema">
+                    </div>
+
+                    <p class="decision-caption">
+                        Mayor claridad visual en tareas operativas frecuentes.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- CROSS PLATFORM -->
+    <section class="case-section cross-platform-section">
+
+        <div class="container">
+
+            <div class="section-heading">
+
+                <h2>Adaptación entre dispositivos</h2>
+
+                <p>
+                    El sistema necesitaba responder a distintos contextos de uso,
+                    manteniendo consistencia visual y priorizando tareas diferentes
+                    según cada dispositivo.
+                </p>
+
+            </div>
+
+            <div class="cross-platform-principles">
+
+                <div class="card">
+                    <h3>Desktop</h3>
+
+                    <p>
+                        Diseñado para gestión intensiva de datos,
+                        tablas complejas y tareas administrativas.
+                    </p>
+                </div>
+
+                <div class="card">
+                    <h3>Tablet</h3>
+
+                    <p>
+                        Adaptado para supervisión y revisión rápida
+                        de información operativa.
+                    </p>
+                </div>
+
+                <div class="card">
+                    <h3>Mobile</h3>
+
+                    <p>
+                        Enfocado en consulta rápida y acciones esenciales
+                        en contexto de movilidad.
+                    </p>
+                </div>
+
+            </div>
+
+            <div class="cross-platform-stack">
+
+                <div class="desktop-device">
+                    <img src="images/desktop.png"
+                        alt="Versión desktop del sistema">
+                </div>
+
+                <div class="tablet-device">
+                    <img src="images/tablet.png"
+                        alt="Versión tablet del sistema">
+                </div>
+
+                <div class="mobile-device">
+                    <img src="images/Mobile.png"
+                        alt="Versión mobile del sistema">
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- DESIGN SYSTEM -->
+    <section class="case-section">
+
+        <div class="container">
+
+            <div class="section-heading">
+
+                <h2>Design system</h2>
+
+                <p>
+                    El proyecto no contaba con un sistema de diseño previo,
+                    por lo que construí una librería de componentes base en Figma
+                    para mantener consistencia visual y funcional entre módulos.
+                </p>
+
+            </div>
+
+            <div class="grid-3" style="margin-top: 40px;">
+
+                <div class="card">
+
+                    <h3>Componentes reutilizables</h3>
+
+                    <p>
+                        Definí componentes para tablas, formularios,
+                        botones, estados y modales utilizados a lo largo del sistema.
+                    </p>
+
+                </div>
+
+                <div class="card">
+
+                    <h3>Consistencia entre módulos</h3>
+
+                    <p>
+                        La librería permitió mantener comportamientos similares
+                        entre distintas áreas y facilitar nuevas iteraciones.
+                    </p>
+
+                </div>
+
+                <div class="card">
+
+                    <h3>Base para escalabilidad</h3>
+
+                    <p>
+                        El sistema quedó preparado para continuar agregando módulos
+                        y funcionalidades de forma más ordenada.
+                    </p>
+
+                </div>
+
+            </div>
+
+            <div class="case-image">
+
+                <img src="images/design-system.png"
+                    alt="Design system construido en Figma">
+
+                <p class="case-image-caption">
+                    Componentes y estilos utilizados en distintos módulos del sistema.
+                </p>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- IMPACTO -->
+    <section class="case-section">
+
+        <div class="container">
+
+            <div class="section-heading">
+
+                <h2>Resultados y aprendizajes</h2>
+
+                <p>
+                    Los primeros módulos implementados recibieron feedback positivo
+                    respecto a claridad visual, organización de información
+                    y facilidad de uso en tareas frecuentes.
+                </p>
+
+            </div>
+
+            <div class="grid-2" style="margin-top: 40px;">
+
+                <div class="card">
+
+                    <h3>Lo que funcionó</h3>
+
+                    <p>
+                        La estandarización de patrones y componentes ayudó
+                        a generar una experiencia más consistente entre módulos
+                        y facilitó la colaboración con desarrollo.
+                    </p>
+
+                </div>
+
+                <div class="card">
+
+                    <h3>Lo que haría distinto</h3>
+
+                    <p>
+                        Si volviera a desarrollar el proyecto,
+                        definiría métricas de uso desde el inicio
+                        para medir con mayor precisión el impacto
+                        de las decisiones de diseño.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- NEXT -->
+    <section class="next-case">
+
+        <p class="next-case-label">
+            Ver siguiente caso
+        </p>
+
+        <a href="case-2.html" class="next-case-btn">
+            SaaS B2B IoT
+        </a>
+
+    </section>
+
+
+    <!-- FOOTER -->
+    <footer class="footer">
+
+        <div class="footer-content">
+
+            <p class="footer-copy">
+                © 2026 Denisse Rosental
+            </p>
+
+            <div class="footer-links">
+
+                <a href="https://www.linkedin.com/in/TU-PERFIL-AQUI"
+                    target="_blank"
+                    aria-label="LinkedIn">
+
+                    <svg viewBox="0 0 24 24" fill="currentColor">
+                        <path d="M4.98 3.5C4.98 4.88 3.86 6 2.48 6S0 4.88 0 3.5 1.12 1 2.48 1 4.98 2.12 4.98 3.5zM.5 8h4v12h-4zM8 8h3.8v1.7h.1c.5-.9 1.8-1.9 3.7-1.9 4 0 4.7 2.6 4.7 6v6.2h-4v-5.5c0-1.3 0-3-1.9-3s-2.2 1.5-2.2 2.9v5.6h-4z"/>
+                    </svg>
+
+                </a>
+
+                <a href="mailto:TU-EMAIL-AQUI@gmail.com"
+                    aria-label="Gmail">
+
+                    <svg viewBox="0 0 24 24" fill="currentColor">
+                        <path d="M12 13.5 2 6.75V18h20V6.75L12 13.5zm10-9H2l10 6.75L22 4.5z"/>
+                    </svg>
+
+                </a>
+
+            </div>
+
+        </div>
+
+    </footer>
+<script src="script.js"></script>
+</body>
+
+</html>
