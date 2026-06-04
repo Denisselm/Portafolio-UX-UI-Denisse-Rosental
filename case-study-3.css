@@ -91,11 +91,11 @@ body {
 }
 
 /* =========================
-   META
+   META ITEMS
 ========================= */
-.case-meta {
+/*.case-meta {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(3, 1fr);
     gap: var(--space-md);
     margin-top: var(--space-lg);
 }
@@ -107,7 +107,32 @@ body {
 
 .meta-item p {
     font-size: 14px;
+}*/
+
+.case-meta {
+    background: linear-gradient(145deg, #1e293b, #020617);
+    padding: 28px;
+    border-radius: var(--radius-lg);
+    border: 1px solid var(--border);
+    height: fit-content;
 }
+
+.meta-item {
+    margin-bottom: var(--space-md);
+}
+
+.meta-item h4 {
+    font-size: 12px;
+    color: var(--text-secondary);
+    margin-bottom: 4px;
+}
+
+.meta-item p {
+    font-size: 14px;
+}
+
+
+
 
 /* =========================
    SECTIONS
